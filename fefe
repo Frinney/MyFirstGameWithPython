@@ -1,0 +1,48 @@
+#if hero kill goblin drop sword
+#if hero upped sword + damageHero
+#
+
+
+
+
+
+hpDragon = 1000
+damageDragon = 10
+hpHero = 100
+damageHero = 20
+
+live = True
+
+
+
+
+
+hpGoblin = 100
+
+
+while live:
+    a = int(input())
+    if a == 1:
+        hpGoblin = hpGoblin - damageHero
+        print(hpGoblin)
+    if hpGoblin < 0:
+        damageHero = damageHero + 5
+        print(damageHero)
+        live = False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+isPrincessHostage = True
